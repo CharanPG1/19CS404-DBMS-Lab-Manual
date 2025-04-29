@@ -48,14 +48,16 @@ Design a database for patient management, appointments, medical records, and bil
 # ER Diagram Submission - Student Name
 
 ## Scenario Chosen:
-University / Hospital (choose one)
+University 
 
 ## ER Diagram:
-![ER Diagram](er_diagram.png)
+
+![438631459-469fcbf7-49c2-434c-9374-52161dc36bd5](https://github.com/user-attachments/assets/2523451c-a46b-4b4a-818a-a0ec2c1e56d4)
 
 ## Entities and Attributes:
-- Entity1: Attributes
-- Entity2: Attributes
+-STUDENT: REG_NO, STUDENT_NAME,EMAIL,PHONE_NO,D.O.B. <br/>
+-COURSE: COURSE_NAME, COURSE_ID, PREREQUISITE,NO_OF_CREDITS. <br/>
+-INSTRUCTOR:NAME,STAFF_ID,CONTACT,EMAIL,PHONE_NO. <br/>
 ...
 
 ## Relationships and Constraints:
