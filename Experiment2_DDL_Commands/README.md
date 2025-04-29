@@ -243,10 +243,10 @@ create table Attendance(
 ---
 Insert the following products into the Products table:
 
-Name        Category     Price       Stock
-----------  -----------  ----------  ----------
-Smartphone  Electronics  800         150
-Headphones  Accessories  200         300
+Name        Category     Price       Stock<br/>
+----------  -----------  ----------  ----------<br/>
+Smartphone  Electronics  800         150<br/>
+Headphones  Accessories  200         300<br/>
 ```sql
 insert into Products(Name,Category,Price,Stock)values('Smartphone','Electronics',800,150),('Headphones','Accessories',200,300);
 ```
@@ -262,11 +262,11 @@ Write a SQL query to add birth_date attribute as timestamp (datatype) in the tab
 
 Sample table: customer
 
- customer_id |   cust_name    |    city    | grade | salesman_id 
--------------+----------------+------------+-------+-------------
-        3002 | Nick Rimando   | New York   |   100 |        5001
-        3007 | Brad Davis     | New York   |   200 |        5001
-        3005 | Graham Zusi    | California |   200 |        5002
+ customer_id |   cust_name    |    city    | grade | salesman_id <br/>
+-------------+----------------+------------+-------+-------------<br/>
+        3002 | Nick Rimando   | New York   |   100 |        5001<br/>
+        3007 | Brad Davis     | New York   |   200 |        5001<br/>
+        3005 | Graham Zusi    | California |   200 |        5002<br/>
 
 ```sql
 alter table customer add birth_date timestamp;
@@ -283,13 +283,13 @@ Write a SQL query to Add a new column Country as text in the Student_details tab
 
 Sample table: Student_details
 
- cid              name             type   notnull     dflt_value  pk
----------------  ---------------  -----  ----------  ----------  ----------
-0                RollNo           int    0                       1
-1                Name             VARCH  1                       0
-2                Gender           TEXT   1                       0
-3                Subject          VARCH  0                       0
-4                MARKS            INT (  0                       0
+ cid              name             type   notnull     dflt_value  pk <br/>
+---------------  ---------------  -----  ----------  ----------  ----------<br/>
+0                RollNo           int    0                       1<br/>
+1                Name             VARCH  1                       0<br/>
+2                Gender           TEXT   1                       0<br/>
+3                Subject          VARCH  0                       0<br/>
+4                MARKS            INT (  0                       0<br/>
 
 ```sql
 
