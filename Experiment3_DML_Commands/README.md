@@ -47,20 +47,44 @@ SELECT column1, column2 FROM table_name WHERE condition;
 ```
 **Question 1**
 --
--- Paste Question 1 here
+Write a SQL statement to double the availability of the product with product_id 1.
 
+products table
+
+---------------<br/>
+product_id<br/>
+product_name<br/>
+category_id<br/>
+availability<br/>
 ```sql
--- Paste your SQL code below for Question 1
+update products
+set availability = availability * 2
+where product_id = 1;
 ```
 
 **Output:**
 
-![Output1](output.png)
+![image](https://github.com/user-attachments/assets/22995305-5814-41ba-a545-d2410f3789bb)
 
 **Question 2**
 ---
--- Paste Question 2 here
+Write a SQL statement to Double the salary for employees in department 20 who have a job_id ending with 'MAN'
 
+Employees table
+```
+---------------
+employee_id
+first_name
+last_name
+email
+phone_number
+hire_date
+job_id
+salary
+commission_pct
+manager_id
+department_id
+```
 ```sql
 -- Paste your SQL code below for Question 2
 ```
